@@ -1,0 +1,23 @@
+{
+  "name": "farm2shelf",
+  "version": "1.0.0",
+  "description": "Farm-to-shelf provenance and price-transparency platform",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "test": "cd backend && npm test",
+    "seed": "cd backend && npm run seed"
+  },
+  "keywords": ["farm", "provenance", "blockchain", "mern", "react"],
+  "author": "Farm2Shelf Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
+
+
